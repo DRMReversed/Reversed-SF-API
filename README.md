@@ -1,4 +1,4 @@
-# -Reversed-SF-API
+# Reversed-SF-API
 
 ‼️ Reversed StreamFab API Available ‼️
 
