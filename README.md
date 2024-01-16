@@ -4,7 +4,7 @@
 
 🔰 Description:
 
-The StreamFab API is an API created by (StreamFab)[https://streamfab.com/] for extracting Widevine keys which are necessary for decrypting DRM-protected content. This API uses Google's Widevine ChromeCDM to generate Widevine license requests and it decrypts the resulting license responses in order to derive the content keys of a Widevine protected DRM video.
+The StreamFab API is an API created by [StreamFab](https://streamfab.com/) for extracting Widevine keys which are necessary for decrypting DRM-protected content. This API uses Google's Widevine ChromeCDM to generate Widevine license requests and it decrypts the resulting license responses in order to derive the content keys of a Widevine protected DRM video.
 
 Presently, StreamFab appears to encrypt the responses of their API to prevent tampering by unauthorized individuals. 
 The Reversed StreamFab API, which I am offering, includes a script and a tool designed to automatically decrypt these responses without manual intervention. For decrypting StreamFab's API responses on Linux machines, the script will use a .so file. To decrypt API responses on Windows machines, I have added the option to select either a .dll or a .exe file, based on your preference. By using this you will get the ability to create Widevine license requests using StreamFab's ChromeCDM API, execute license requests using it to your video's license server, and extract the content keys from your DRM-protected video by sending the received license responses back to StreamFab's ChromeCDM API.
